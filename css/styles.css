@@ -1,0 +1,253 @@
+body
+  {
+    text-align: center;
+  }
+
+
+/* navbar */
+.navigation
+{
+  padding: 3px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  flex-grow: initial;
+}
+.navbar-brand
+{
+  font-family: 'Bubblegum Sans', cursive;
+}
+#navbarNav
+{
+  flex-grow: initial;
+}
+/* navbar */
+
+
+
+/* home */
+.head {
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    color: white;
+    padding: 30px;
+    background-color: #40747e;
+    color: white;
+    padding-top: 100px;
+}
+/* home */
+
+
+/* home post */
+.cont{
+  background-color: #836165;
+  position: relative;
+  padding: 80px;
+}
+.post{
+  text-align:center;
+  position: relative;
+  top: 170px;
+  left:50px;
+  }
+.post-quote {
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    font-size: 2em;
+  }
+.post-image{
+  position: relative;
+  left:75px;
+  transform: rotate(-8deg);
+  height: 500px;
+}
+ /* home post */
+
+
+/* benefits */
+.benefits
+  {
+    text-align: center;
+    background-color: #FFf;
+    padding:100px;
+    font-weight: bold;
+  }
+.bicon
+  {
+    height: 100px;
+  }
+/* benefits */
+
+
+/* pricing */
+.pricing
+   {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color:#abab65;
+    padding: 50px;
+  }
+.pricingimage
+  {
+    width: 100%;
+    margin: 10%;
+  }
+  .pricing-heading
+  {
+    font-family:'Montserrat', sans-serif;
+    font-size: 2em;
+  }
+  /* pricing */
+
+
+  /* testimonials */
+  #testimonials{
+    font-family:'Montserrat', sans-serif;
+    padding: 80px;
+    text-align: center;
+  }
+  .carousel{
+    margin: auto;
+    padding-top:50px;
+  }
+  .test-slide{
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+  }
+/* testimonials */
+
+
+  /* quote */
+  .quote{
+  background-color: #627685;
+  color:white;
+  padding: 100px;
+  font-family: 'Rancho', cursive;
+  font-size: 3em;
+  text-align: center;
+  }
+/* quote */
+
+
+/* gallery */
+  .gallery
+  {
+    padding: 1px 150px 50px;
+  }
+  .galh4{
+    color: black;
+    font-size: 3em;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+  }
+  .thank
+  {
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Rancho';
+    font-size: 2em;
+  }
+
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  /* gallery */
+
+
+  /* contact */
+  #contact{
+    background-color: #976a3e;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+    padding: 50px 100px 10px;
+  }
+
+  .icon{
+   vertical-align: middle;
+   padding: 0px 5px 1px;
+   text-decoration: none;
+   font-size: 1.15em;
+  }
+  .foot{
+    font-size: 0.75em;
+  }
+  span{
+    font-size: 0.85em;
+  }
+/* contact */
+
+
+
+
+/* responsive */
+  @media (max-width:1145px) {
+    .post-image{
+      position: static;
+      transform: rotate(0);
+      height:500px;
+      padding:3% 1% 7%;
+      text-align: center;
+    }
+    .post{
+      padding:3% 5% 1%;
+      position: static;
+    }
+    .ben{
+     padding-bottom: 5%;
+
+    }
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+/* responsive */
+
+/* Customization form */
+.center-form{
+text-align: center;
+background-color: #c7bace61;
+padding: 30px;
+}
+.custom-from{
+  display: flex;
+  margin:auto;
+  border: 3px solid #f4f3f6;
+  padding: 60px;
+  background-color: #F0D9FF;
+  justify-content: center;
+  text-align: justify;
+  line-height: 3em;
+  width: 35%;
+
+}
+label{
+    /* text-align: left; */
+}
